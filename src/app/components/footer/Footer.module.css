@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    gap: 200px;
+    padding: 50px 100px;
+    background-color: #322C2B;
+    color: white;
+    font-family: var(--font-reem_kufi);
+}
+
+.container .firstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .firstSection h1{
+    font-family: var(--font-lily_script);
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.container .firstSection h2{
+    margin-top: 5px;
+    color: #b5b5b5;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.container .secondSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.container .secondSection p{
+    color: white;
+}
+
+.container .thirdSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.container .thirdSection p{
+    color: white;
+}
+
+.container .fourthSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.container .fourthSection .socialSection{
+    display: flex;
+    gap: 20px;
+
+}
+
+.container .iconBackground{
+    background-color: #AF8260;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .fourthSection h3{
+    margin-top: 45px;
+    color: #b5b5b5;
+    font-size: 15px;
+    font-weight: 200;
+}
