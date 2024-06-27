@@ -51,21 +51,21 @@ const NewsSection = () => {
             <article className={styles.subArticle}>
                 <section className={styles.imageContainer}>
                     <Image 
-                    src="/dummy_image/Lifestyle1.jpg" 
-                    width={440}
+                    src="/dummy_image/Sports1.jpg" 
+                    width={500}
                     height={300}
                     className={styles.image}
                     />
                 </section>
                 <section className={styles.content}>
                     <Link href="/" className={styles.categoryBackground}>
-                        <h2>Lifestyle</h2>
+                        <h2>Sports</h2>
                     </Link>
                     <div className={styles.title}>
-                        <h2>New and Trending Fashion of 2024</h2>
+                        <h2>Is Kevin Durant on the Top 5 Players in History?</h2>
                     </div>
                     <div className={styles.author}>
-                        <h3>Miko Tatsuke</h3>
+                        <h3>Tracy Wolfdaughter</h3>
                     </div>
                 
                     <Link href="/"className={styles.readMoreBackground}>
@@ -76,21 +76,21 @@ const NewsSection = () => {
             <article className={styles.subArticle}>
                 <section className={styles.imageContainer}>
                     <Image 
-                    src="/dummy_image/Lifestyle1.jpg" 
-                    width={440}
+                    src="/dummy_image/E-Sports.jpg" 
+                    width={500}
                     height={300}
                     className={styles.image}
                     />
                 </section>
                 <section className={styles.content}>
                     <Link href="/" className={styles.categoryBackground}>
-                        <h2>Lifestyle</h2>
+                        <h2>E-Sports</h2>
                     </Link>
                     <div className={styles.title}>
-                        <h2>New and Trending Fashion of 2024</h2>
+                        <h2>How RRQ Can Comeback Againts DRX on Pacific Stage 2</h2>
                     </div>
                     <div className={styles.author}>
-                        <h3>Miko Tatsuke</h3>
+                        <h3>Dannn Benrlintom</h3>
                     </div>
                 
                     <Link href="/"className={styles.readMoreBackground}>

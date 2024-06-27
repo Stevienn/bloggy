@@ -101,6 +101,10 @@
     overflow: hidden;
 }
 
+.container .gridContainer .subArticle .imageContainer .image {
+    transform: translate(-5%, 0%);
+  }
+
 .container .gridContainer .subArticle .content{
     padding: 20px 50px;
 }

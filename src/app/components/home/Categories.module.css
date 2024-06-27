@@ -1,0 +1,27 @@
+.container{
+    margin: 50px 100px;
+    font-family: var(--font-inria_sans);
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.container .gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.container .gridContainer .categoryBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #803D3B, #322C2B);
+    /* background-color: #322C2B; */
+    color: white;
+    padding: 40px;
+    border: none;
+    border-radius: 50px;
+}
