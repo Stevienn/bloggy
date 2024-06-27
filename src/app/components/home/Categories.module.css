@@ -20,8 +20,8 @@
     align-items: center;
     background-image: linear-gradient(to right, #803D3B, #322C2B);
     /* background-color: #322C2B; */
-    color: white;
-    padding: 40px;
+    color: white;   
+    padding: 20px;
     border: none;
     border-radius: 50px;
 }
