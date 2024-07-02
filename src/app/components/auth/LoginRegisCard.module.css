@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    flex-direction: column;
+    font-family: var(--font-inria_sans);
+
+}
+
+.container .formContainer{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 30px;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    font-family: var(--font-reem_kufi);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.container form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container button{
+    background-image: linear-gradient(to right, #E4C59E, #AF8260);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-family: var(--font-reem_kufi);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background: #E4C59E;
+}
+
+.container .registerContainer{
+    display: flex;
+}
+
+.container h2{
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 5px;
+}
+
+.container .register{
+    font-size: 15px;
+    /* font-weight: 100; */
+}
