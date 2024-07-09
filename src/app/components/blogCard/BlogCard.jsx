@@ -24,7 +24,7 @@ const BlogCard = (props) => {
             <div className={styles.author}>
                 <h3>{props.author}</h3>
             </div> 
-            <Link href="/"className={styles.readMoreBackground}>
+            <Link href="/blog/post"className={styles.readMoreBackground}>
                 <h2>Read More</h2>
             </Link>
         </section>

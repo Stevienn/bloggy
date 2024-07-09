@@ -7,6 +7,7 @@ const RegisterCard = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmpassword, setConfirmPassword] = useState('');
   return (
     <main className={styles.container}>
       <section className={styles.formContainer}>
@@ -17,12 +18,16 @@ const RegisterCard = () => {
             <input type='text' placeholder='ex: vimiko19' value={username} onChange={(event)=>setUsername(event.target.value)} />
           </label>
           <label>
-          <label>
             Email
             <input type='email' placeholder='ex: vimiko19@gmail.com' value={email} onChange={(event)=>setEmail(event.target.value)} />
           </label>
+          <label>
             Password
             <input type='password' placeholder='ex: ********' value={password} onChange={(event)=>setPassword(event.target.value)} />
+          </label>
+          <label>
+            Confirm Password
+            <input type='password' placeholder='ex: ********' value={confirmpassword} onChange={(event)=>setConfirmPassword(event.target.value)} />
           </label>
           <button type="submit">REGISTER</button>
         </form>
