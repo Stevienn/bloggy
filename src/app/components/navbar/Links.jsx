@@ -9,18 +9,21 @@ const Links = () => {
 
     const links = [
         {
+            id: 1,
             title: "Home",
             path: "/",
         },
-        {
+        {   id: 2,
             title: "Blog",
             path: "/blog",
         },
         {
+            id: 3,
             title: "Post",
             path: "/post",
         },
         {
+            id: 4,
             title: "About Us",
             path: "/aboutus",
         },
@@ -29,7 +32,7 @@ const Links = () => {
     return (
         <div className={styles.navigation}>
             {links.map((link=>(
-                <Link href={link.path} className={`${styles.navLink} ${pathName === link.path && styles.active}`}>{link.title}</Link>
+                <Link key={link.id} href={link.path} className={`${styles.navLink} ${pathName === link.path && styles.active}`}>{link.title}</Link>
             )))}
         </div>
     )
